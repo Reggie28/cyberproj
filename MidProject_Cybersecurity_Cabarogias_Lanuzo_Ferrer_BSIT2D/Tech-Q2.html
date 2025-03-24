@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tech EduQuest</title>
+	<link rel="website icon" type="png"
+	href="robot_icon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Tech-PP.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+            <img src="Cyber lock.png">
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="Tech-home.html">HOME</a></li>
+				<li><a href="Tech-Trails.html">CYBER TRAILS</a></li>
+				<li><a href="Tech-about.html">ABOUT</a></li>
+				<li><a href="Tech-contact.html">CONTACT</a></li>
+				<li><a href="Tech-Profiles.html">PROFILE</a></li>
+			</ul>
+		</div>
+		<div class="signup">
+			<a href="Tech-Login.html">LOG IN</a>
+		</div>
+		<div class="search">
+			<a href="Tech-search.html"><img src="search_icon-removebg-preview.png" alt="search"></a>
+		</div>
+		<div class="cart">
+			<a href="Tech-cart.html"><img src="cart_icon-removebg-preview.png" alt="cart"></a>
+		</div>
+	</div>
+    <div>
+            <i class="fas fa-search search-icon"></i>
+    </div>
+    <div class="body">
+      <h1>Quest <span class="h1color"> Game</span></h1>
+
+     <p>NETWORK LAYOUT</p>
+
+      <div class="container">
+      <div class="sidenav">
+        <a href="Tech-QP.html">Cybersecurity</a>
+        <a href="Tech-Q.html">Coding Essentials</a>
+        <a href="Tech-Q2.html">Networking</a>
+        <a href="Tech-QD.html">Data Science</a>
+        <a href="Tech-Q3.html">Web Development</a>     
+      </div>
+
+     <div class="image">
+        <img src="net.png">
+      </div>
+</div>
+
+
+    <script>
+
+      function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+   </script>
+        
+    </div>
+	<div class="footer">
+		<a href="Tech-TC.html">Terms and Conditions</a>
+		<a href="Tech-PP.html">Privacy Policy</a>
+		<a href="Tech-FAQ.html">FAQ</a>
+	</div>
+</body>
+</html>
+
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.menu ul{
+  position: absolute;
+  top: 5%;
+  left: 16%;
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+.signup a{
+  position: absolute;
+  right: 15%;
+  top: 2.5%;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #000000;
+}
+.signup a:hover{
+	background-color: rgb(39, 39, 232);
+	transition: 0.6s;
+}
+.search img{
+	width: 80px;
+	height: 60px;
+	position: absolute;
+	right: 6.5%;
+	top: 2%;
+}
+.cart img{
+	width: 65px;
+	height: 40px;
+	position: absolute;
+	right: 1.5%;
+	top: 4%;
+}
+.logo img{
+  position: absolute;
+  top: -1.2%;
+  left: 2.9%;
+  width: 111px;
+  height: 90px;
+}
+.body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(https://i.pinimg.com/474x/eb/1b/48/eb1b48da078e01de2acd48e67c3189fa.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: yellow;
+  text-align: center;
+}
+
+h1 .h1color {
+  color: rgb(39, 39, 232);
+}
+
+p {
+  position: absolute;
+  top: 20%;
+  left: 52%;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.sidenav {
+  position: absolute;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.sidenav a {
+  margin-bottom: 70px;
+  font-size: 16px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.sidenav a:hover {
+  border-bottom: 4px solid white;
+  transition: 0.4s;
+  color: yellow;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+img {
+  width:800px; height: 300px;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.sidenav {
+  width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block
+}
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 600px) {
+  .search-container {
+    float: none;
+    text-align: center;
+  }
+  .search-container input[type=text] {
+    width: 100%;
+  }
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+</style>
+</head>
+</body>
+</html>
+
+
+

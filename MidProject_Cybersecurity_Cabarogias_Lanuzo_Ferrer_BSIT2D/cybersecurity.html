@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Basics</title>
+    <style>
+        /* Page Background */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0B162C;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main Container */
+        .container {
+            width: 75%;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Title Styling */
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #FFD700;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.5);
+        }
+
+        /* Image Container */
+        .image-container {
+            margin: 15px 0;
+        }
+
+        .image-container img {
+            border-radius: 10px;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            width: 120px;
+            height: auto;
+            opacity: 0.9;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Content Box */
+        .content {
+            background: linear-gradient(to right, #000428, #004e92); /* Semi-transparent yellow */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            margin-bottom: 20px;
+        }
+
+        /* List Styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: rgba(0, 0, 0, 0.3);
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        ul li:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        ul li::before {
+            margin-right: 12px;
+            font-size: 20px;
+        }
+
+        /* Custom List Icons */
+        ul li:nth-child(1)::before { content: "🔐"; } /* Strong Password */
+        ul li:nth-child(2)::before { content: "🛑"; } /* 2FA */
+        ul li:nth-child(3)::before { content: "🔄"; } /* Updates */
+        ul li:nth-child(4)::before { content: "⚠️"; } /* Phishing */
+        ul li:nth-child(5)::before { content: "🦠"; } /* Antivirus */
+        ul li:nth-child(6)::before { content: "📶"; } /* Secure Wi-Fi */
+        ul li:nth-child(7)::before { content: "🔍"; } /* Limit Personal Info */
+
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #FFD700;
+            opacity: 0.8;
+        }
+
+        /* Back Button */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(255, 215, 0, 0.9);
+            color: #0B162C;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+            box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.3);
+        }
+
+        .back-button:hover {
+            background: #FFD700;
+            box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+    <a href="Tech-Trails.html" class="back-button">← Back</a>
+    <div class="container">
+        <h1 class="title">🌐 Cybersecurity Basics</h1><br>
+
+        <div class="content">
+            <h2 style="color: #00c3ff;">🛡️ What is Cybersecurity?</h2>
+            <p>Cybersecurity is the practice of protecting systems, networks, and data from cyber threats, unauthorized access, and cyber-attacks. It plays a crucial role in ensuring the safety of personal, financial, and confidential information.</p>
+        </div>
+
+        <div class="content">
+            <h2 style="color: #00c3ff;">🔑 Key Cybersecurity Practices</h2>
+            <ul>
+                <li><strong>Use Strong Passwords:</strong> Create complex passwords with a mix of letters, numbers, and special characters.</li>
+                <li><strong>Enable Two-Factor Authentication:</strong> Adds an extra security layer to prevent unauthorized access.</li>
+                <li><strong>Update Software Regularly:</strong> Keep your software and operating system up to date to protect against vulnerabilities.</li>
+                <li><strong>Beware of Phishing Scams:</strong> Do not click on suspicious links or share personal information online.</li>
+                <li><strong>Use Antivirus Software:</strong> Install trusted security software to detect and remove potential threats.</li>
+                <li><strong>Secure Your Wi-Fi:</strong> Use a strong password and enable WPA3 encryption to protect your network.</li>
+                <li><strong>Limit Personal Information Sharing:</strong> Be mindful of sharing personal details on social media to prevent identity theft.</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Stay Safe Online! | &copy; 2025 Cybersecurity Awareness</p>
+        </div>
+    </div>
+
+</body>
+</html>

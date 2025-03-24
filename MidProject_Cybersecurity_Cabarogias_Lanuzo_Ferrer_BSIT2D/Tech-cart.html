@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu TechQuest - Cart</title>
+    <link rel="website icon" type="png"
+	href="robot_icon.png">
+    <link rel="stylesheet" href="Tech-cart.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="Cyber lock.png" style="width: 60px; height: 60px; border-radius: 30px;">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="Tech-home.html">HOME</a></li>
+				<li><a href="Tech-Trails.html">CYBER TRAILS</a></li>
+				<li><a href="Tech-about.html">ABOUT</a></li>
+				<li><a href="Tech-contact.html">CONTACT</a></li>
+				<li><a href="Tech-Profiles.html">PROFILE</a></li>
+            </ul>
+        </div>
+        <div class="signup">
+            <a href="Tech-Login.html">LOG IN</a>
+        </div>
+        <div class="search">
+            <a href="Tech-search.html"><img src="search_icon-removebg-preview.png" alt="search"></a>
+        </div>
+        <div class="cart">
+            <a href="Tech-cart.html"><img src="cart_icon-removebg-preview.png" alt="cart"></a>
+        </div>
+    </div>
+
+    <div class="body">
+    <section class="cart-section">
+        <h2>Your Cart</h2>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example cart items -->
+                <tr>
+                    <td>Cybersecurity Course</td>
+                    <td>$99</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$99</td>
+                </tr>
+                <tr>
+                    <td>Coding Essentials Course</td>
+                    <td>$79</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$79</td>
+                </tr>
+                <tr>
+                    <td>Data Science Book</td>
+                    <td>$49</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$49</td>
+                </tr>
+                <tr>
+                    <td>Networking Course</td>
+                    <td>$89</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$89</td>
+                </tr>
+                <tr>
+                    <td>Web Development Course</td>
+                    <td>$119</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$119</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="cart-total">
+            <h3>Cart Total: $227</h3>
+            <button type="button">Checkout</button>
+        </div>
+    </section>
+
+    <section class="offers-section">
+        <h2>Special Offers</h2>
+        <div class="offers">
+            <!-- Example offers -->
+            <div class="offer">
+                <h3>Cybersecurity Bundle</h3>
+                <p>Get the Cybersecurity Course and Book at a discounted price!</p>
+                <p>Price: $149</p>
+                <button type="button">Add to Cart</button>
+            </div>
+            <div class="offer">
+                <h3>Coding Essentials Bundle</h3>
+                <p>Get the Coding Essentials Course and Book at a discounted price!</p>
+                <p>Price: $129</p>
+                <button type="button">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 DefendNet: Cybersecurity Guide. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
